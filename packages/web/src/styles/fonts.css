@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/outfit/outfit.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/satoshi/satoshi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source';
+    src: url('/fonts/source/source.ttf') format('truetype');
+}

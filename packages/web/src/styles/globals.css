@@ -1,0 +1,49 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #fafafc;
+  --color-border: rgb(229, 229, 229);
+
+  --color-primary: #535dd8;
+  /* --color-t-primary: #ffb969a0; */
+  --color-green: rgb(129, 240, 146);
+  --color-red: #ff6e6c;
+
+  --color-primary-text: #1f1235;
+  --color-secondary-text: #8f9abd
+  ;
+  --color-transparent: rgba(0, 0, 0, 0);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+  10% {
+		background-position: 0% 50%;
+	}
+  20% {
+		background-position: 10% 40%;
+	}
+  30% {
+		background-position: 0% 50%;
+	}
+	40% {
+		background-position: 25% 10%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
